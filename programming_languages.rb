@@ -7,7 +7,7 @@ def reformat_languages(languages)
   languages.each do |key, val|
     puts key
     puts '^^^^^^^^^^^^^^^^^^^^^^'
-    puts val
+    puts languages[val] 
     val.keys.each do |k|
       puts 'GGGGGGGGGGGGGGGGGGGGGGGG'
       puts k
