@@ -5,9 +5,8 @@
 
 def reformat_languages(languages)
   languages.each do |key, val|
-    puts key
-    puts '^^^^^^^^^^^^^^^^^^^^^^'
-    puts languages[key].merge({:style => key.to_s})
+    val.each do |k, v|
+      puts languages[key][k].merge({:style => key.to_s})
     # val.keys.each do |k|
     #   puts 'GGGGGGGGGGGGGGGGGGGGGGGG'
     #   puts k
