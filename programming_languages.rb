@@ -10,7 +10,7 @@ def reformat_languages(languages)
     puts val
     val.keys.each do |k|
       puts 'GGGGGGGGGGGGGGGGGGGGGGGG'
-      puts (:style => key.to_s)
+      puts {:style => key.to_s}
       puts 'GGGGGGGGGGGGGGGGGGGGGGGG'
     end 
 
